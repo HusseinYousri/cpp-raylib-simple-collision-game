@@ -12,9 +12,6 @@ struct GameState {
     Player Player1{15, height / 2, 15, 5};
 } game;
 
-// Game Variables
-int EnemyCount{7}; // Number of enemies
-
 // Game Functions
 void SpawnEnemies(GameState& gameState, int count);
 void DrawEnemyObjects(GameState& gameState);
